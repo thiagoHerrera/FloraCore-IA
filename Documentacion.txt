@@ -1,0 +1,35 @@
+data/raw: Guardás el dataset original, sin tocar. Siempre conviene conservarlo.
+
+data/processed: El dataset listo para entrenar (con el formato de carpetas que te había mostrado).
+
+models/: Ahí guardás todos los modelos entrenados.
+
+src/: Código puro, limpio, separado por funciones.
+
+logs/: Si después queremos trackear el entrenamiento (con TensorBoard por ejemplo).
+
+
+prepare_data.py
+Este script:
+
+-Lee las carpetas.
+
+-Mueve las imágenes a las carpetas train/sana, train/enferma, val/sana, val/enferma.
+
+-Hace un split 80/20.
+
+Transfer Learning → usar el conocimiento de un modelo grande.
+
+Fine-tuning → entrenar las últimas capas para que aprenda nuestro dataset.
+
+-------Instalar librerias-------
+
+    pip install tensorflow
+
+-------Activar venv-------
+
+    venv\Scripts\activate.bat
+
+-------Para replicar el proyecto en otro lugar-------
+
+    pip install -r requirements.txt
