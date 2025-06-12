@@ -33,3 +33,9 @@ Fine-tuning → entrenar las últimas capas para que aprenda nuestro dataset.
 -------Para replicar el proyecto en otro lugar-------
 
     pip install -r requirements.txt
+
+------Si tira error de que no encuentra el Directorio-------ç
+
+    cd C:\Users\thiag\Downloads\FloraCore-IA\FloraCore-IA
+                            Y
+    & C:/Users/thiag/Downloads/FloraCore-IA/.venv/Scripts/python.exe src/train_model.py
