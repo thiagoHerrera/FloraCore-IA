@@ -39,3 +39,19 @@ Fine-tuning → entrenar las últimas capas para que aprenda nuestro dataset.
     cd C:\Users\thiag\Downloads\FloraCore-IA\FloraCore-IA
                             Y
     & C:/Users/thiag/Downloads/FloraCore-IA/.venv/Scripts/python.exe src/train_model.py
+
+------Usar predict.py--------
+
+    python src/predict.py ruta/a/la/imagen.jpg
+
+------Entrenar--------
+
+    python src/train_model.py
+
+------Probar IMG--------
+
+    python src/predict.py ruta/a/imagen.jpg
+
+------Probar muchas imagenes------
+
+    python src/predict_batch.py
