@@ -12,6 +12,8 @@ logs/: Si después queremos trackear el entrenamiento (con TensorBoard por ejemp
 prepare_data.py
 Este script:
 
+    python src/prepare_data.py
+
 -Lee las carpetas.
 
 -Mueve las imágenes a las carpetas train/sana, train/enferma, val/sana, val/enferma.
